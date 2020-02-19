@@ -17,7 +17,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @cross_origin()
 def getDistance1():
-    return "Hello from Jenkins"
+    return "Hello from Jenkins and Github"
 
 @app.route('/getdistance', methods=['GET', 'POST'])
 
